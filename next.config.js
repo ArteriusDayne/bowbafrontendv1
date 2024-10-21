@@ -34,5 +34,6 @@ const nextConfig = withStoreConfig({
 
 console.log("next.config.js", JSON.stringify(module.exports, null, 2))
 console.log("BACKEND_URL:", process.env.BACKEND_URL)
+console.log("ENV:", process.env.NODE_ENV)
 
 module.exports = nextConfig
