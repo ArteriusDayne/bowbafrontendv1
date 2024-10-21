@@ -16,6 +16,8 @@ RUN yarn build
 
 # Set the environment to production
 ENV NODE_ENV=production
+ENV BACKEND_URL=https://admin.bowbashop.com
+
 
 # Expose port 8000
 EXPOSE 8000
