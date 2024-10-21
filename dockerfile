@@ -14,10 +14,6 @@ COPY . .
 # Build the Next.js application
 RUN yarn build
 
-# Set the environment to production
-ENV NODE_ENV=production
-ENV BACKEND_URL=${BACKEND_URL}
-
 # Expose port 8000
 EXPOSE 8000
 
