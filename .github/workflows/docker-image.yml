@@ -11,6 +11,7 @@ on:
 env:
   REGISTRY: ghcr.io
   IMAGE_NAME: ${{ github.repository }}
+  BACKEND_URL: https://admin.bowbashop.com
 
 jobs:
   build:
