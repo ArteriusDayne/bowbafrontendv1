@@ -14,6 +14,7 @@ COPY . .
 # Build the Next.js application
 ARG BACKEND_URL
 ENV BACKEND_URL=${BACKEND_URL}
+RUN echo "BACKEND_URL: $BACKEND_URL"
 RUN yarn build
 
 # Expose port 8000

@@ -28,10 +28,11 @@ const nextConfig = withStoreConfig({
     ],
   },
   env: {
-    BACKEND_URL: process.env.BACKEND_URL || "http://localhost:9000",
+    BACKEND_URL: process.env.BACKEND_URL || "https://admin.bowbashop.com",
   },
 })
 
 console.log("next.config.js", JSON.stringify(module.exports, null, 2))
+console.log("BACKEND_URL:", process.env.BACKEND_URL)
 
 module.exports = nextConfig
