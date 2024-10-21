@@ -28,7 +28,7 @@ const nextConfig = withStoreConfig({
     ],
   },
   env: {
-    BACKEND_URL: process.env.BACKEND_URL || "https://admin.bowbashop.com",
+    BACKEND_URL: process.env.BACKEND_URL || "http://localhost:9000",
   },
 })
 
