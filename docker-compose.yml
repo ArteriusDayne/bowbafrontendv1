@@ -1,0 +1,20 @@
+services:
+  frontend:
+    container_name: "bowba-frontend"
+    build:
+      context: ./
+    environment:
+      NEXT_PUBLIC_MEDUSA_BACKEND_URL: http://192.168.50.2:9000
+      NEXT_PUBLIC_MEDUSA_PUBLISHABLE_KEY: pk_61a15db0acad2fd1910f630ccae053149fe59778d421ac15dd2fbab1262b6ec9
+      NEXT_PUBLIC_BASE_URL: http://192.168.50.203:8000
+      NEXT_PUBLIC_DEFAULT_REGION: us
+      NEXT_PUBLIC_STRIPE_KEY:
+      NEXT_PUBLIC_PAYPAL_CLIENT_ID:
+      NEXT_PUBLIC_FEATURE_SEARCH_ENABLED: false
+      NEXT_PUBLIC_SEARCH_APP_ID:
+      NEXT_PUBLIC_SEARCH_ENDPOINT: http://127.0.0.1:7700
+      NEXT_PUBLIC_SEARCH_API_KEY:
+      NEXT_PUBLIC_INDEX_NAME: products
+      REVALIDATE_SECRET: supersecret
+    ports:
+      - "8000:8000"
