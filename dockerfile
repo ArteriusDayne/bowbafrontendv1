@@ -7,6 +7,7 @@ WORKDIR /app
 # Install dependencies
 COPY package.json yarn.lock ./
 RUN yarn install --frozen-lockfile
+RUN npm install -g npm@10.9.0
 
 # Copy the rest of the application
 COPY . .
