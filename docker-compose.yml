@@ -4,7 +4,7 @@ services:
     build:
       context: ./
     environment:
-      NEXT_PUBLIC_MEDUSA_BACKEND_URL: http://192.168.50.2:9000
+      NEXT_PUBLIC_MEDUSA_BACKEND_URL: https://admin.bowbashop.com
       NEXT_PUBLIC_MEDUSA_PUBLISHABLE_KEY: pk_61a15db0acad2fd1910f630ccae053149fe59778d421ac15dd2fbab1262b6ec9
       NEXT_PUBLIC_BASE_URL: http://192.168.50.203:8000
       NEXT_PUBLIC_DEFAULT_REGION: us
