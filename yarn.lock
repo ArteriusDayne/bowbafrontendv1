@@ -937,12 +937,12 @@
     awilix "^8.0.1"
     ulid "^2.3.0"
 
-"@meilisearch/instant-meilisearch@^0.7.1":
-  version "0.7.1"
-  resolved "https://registry.npmjs.org/@meilisearch/instant-meilisearch/-/instant-meilisearch-0.7.1.tgz"
-  integrity sha512-bUGiGO/da915Y9Dmu2n5fTMFvSlJHC6ABOcL7056OiBSCU1Bx1EvVEkzYmTxac3lqIoIpxZU5t0WXiPeikrg4g==
+"@meilisearch/instant-meilisearch@^0.21.1":
+  version "0.21.1"
+  resolved "https://registry.yarnpkg.com/@meilisearch/instant-meilisearch/-/instant-meilisearch-0.21.1.tgz#fa9cc92f8966a047f02e761334b090004217a792"
+  integrity sha512-igbDiEwUnYvB0CqbdL7M9ninRL3OGH/my5Aacsz8TaGIWtacCzIaRPgYizHApqPLGT8jk7OSn+OcZrBUa6p6RA==
   dependencies:
-    meilisearch "0.25.1"
+    meilisearch "^0.44.0"
 
 "@mikro-orm/core@5.7.12":
   version "5.7.12"
@@ -3255,13 +3255,6 @@ cross-env@^5.2.1:
   dependencies:
     cross-spawn "^6.0.5"
 
-cross-fetch@^3.1.5:
-  version "3.1.8"
-  resolved "https://registry.npmjs.org/cross-fetch/-/cross-fetch-3.1.8.tgz"
-  integrity sha512-cvA+JwZoU0Xq+h6WkMvAUqPEYy92Obet6UdKLfW60qn99ftItKjB5T+BkyWOFWe2pUyfQ+IJHmpOTznqk1M6Kg==
-  dependencies:
-    node-fetch "^2.6.12"
-
 cross-inspect@1.0.0:
   version "1.0.0"
   resolved "https://registry.npmjs.org/cross-inspect/-/cross-inspect-1.0.0.tgz"
@@ -5400,12 +5393,10 @@ medusa-test-utils@^1.1.40:
     medusa-core-utils "^1.2.0"
     randomatic "^3.1.1"
 
-meilisearch@0.25.1:
-  version "0.25.1"
-  resolved "https://registry.npmjs.org/meilisearch/-/meilisearch-0.25.1.tgz"
-  integrity sha512-20jO0pK9BhghxHSkOLbdoYn58h/Z0PNL3JQcRq7ipNIeqrxkAetCZZ6ttJC3uxcz0jVglmiFoSXu3Z/lEOLOLQ==
-  dependencies:
-    cross-fetch "^3.1.5"
+meilisearch@^0.44.0:
+  version "0.44.1"
+  resolved "https://registry.yarnpkg.com/meilisearch/-/meilisearch-0.44.1.tgz#1e997b8020b8c0d03d500bcab53f494b51edec90"
+  integrity sha512-ZTZYBmomtRwjaWbvU8U8ct04g/YnrNOlvchogJOPgHcQIQBfjdbAvMJ8mLhuZEzpioYXIT6Cv+FcE150pc2+nw==
 
 merge-descriptors@1.0.3:
   version "1.0.3"
@@ -5639,13 +5630,6 @@ no-case@^3.0.4:
   dependencies:
     lower-case "^2.0.2"
     tslib "^2.0.3"
-
-node-fetch@^2.6.12:
-  version "2.7.0"
-  resolved "https://registry.npmjs.org/node-fetch/-/node-fetch-2.7.0.tgz"
-  integrity sha512-c4FRfUm/dbcWZ7U+1Wq0AwCyFL+3nt2bEw05wfxSz+DWpWsitgmSgYmy2dQdWyKC1694ELPqMs/YzUSNozLt8A==
-  dependencies:
-    whatwg-url "^5.0.0"
 
 node-gyp-build-optional-packages@5.0.7:
   version "5.0.7"
@@ -7271,11 +7255,6 @@ toidentifier@1.0.1:
   resolved "https://registry.npmjs.org/toidentifier/-/toidentifier-1.0.1.tgz"
   integrity sha512-o5sSPKEkg/DIQNmH43V0/uerLrpzVedkUh8tGNvaeXpfpuwjKenlSox/2O/BTlZUtEe+JG7s5YhEz608PlAHRA==
 
-tr46@~0.0.3:
-  version "0.0.3"
-  resolved "https://registry.npmjs.org/tr46/-/tr46-0.0.3.tgz"
-  integrity sha512-N3WMsuqV66lT30CrXNbEjx4GEwlow3v6rr4mCcv6prnfwhS01rkgyFdjPNBYd9br7LpXV1+Emh01fHnq2Gdgrw==
-
 triple-beam@^1.3.0:
   version "1.4.1"
   resolved "https://registry.npmjs.org/triple-beam/-/triple-beam-1.4.1.tgz"
@@ -7543,11 +7522,6 @@ wcwidth@^1.0.1:
   dependencies:
     defaults "^1.0.3"
 
-webidl-conversions@^3.0.0:
-  version "3.0.1"
-  resolved "https://registry.npmjs.org/webidl-conversions/-/webidl-conversions-3.0.1.tgz"
-  integrity sha512-2JAn3z8AR6rjK8Sm8orRC0h/bcl/DqL7tRPdGZ4I1CjdF+EaMLmYxBHyXuKL849eucPFhvBoxMsflfOb8kxaeQ==
-
 webpack-sources@^3.2.3:
   version "3.2.3"
   resolved "https://registry.npmjs.org/webpack-sources/-/webpack-sources-3.2.3.tgz"
@@ -7581,14 +7555,6 @@ webpack@^5:
     terser-webpack-plugin "^5.3.10"
     watchpack "^2.4.1"
     webpack-sources "^3.2.3"
-
-whatwg-url@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.npmjs.org/whatwg-url/-/whatwg-url-5.0.0.tgz"
-  integrity sha512-saE57nupxk6v3HY35+jzBwYa0rKSy0XR8JSxZPwgLr7ys0IBzhGviA1/TUGJLmSVqs8pb9AnvICXEuOHLprYTw==
-  dependencies:
-    tr46 "~0.0.3"
-    webidl-conversions "^3.0.0"
 
 which-boxed-primitive@^1.0.2:
   version "1.0.2"
